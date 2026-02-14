@@ -1,0 +1,972 @@
+.festive{
+    width:100wh;
+    height:550px;
+    background-image: url(./images/ss.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-family: "Poppins", Sans-serif;
+    font-size: 85px;
+    font-weight: 800;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.festive h1{
+      font-family: "Poppins", Sans-serif;
+    font-size: 85px;
+    font-weight: 800;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tradition1{
+    margin-top:50px;
+    width:100%;
+    height:700px;
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.t-left{
+    width:50%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.t-left img{
+    width:520px;
+    height:520px;
+    border-radius:10px;
+    margin-left:170px;
+}
+.t-right{
+     width:50%;
+    height:100%; 
+     display: flex;
+     flex-direction: column;
+    justify-content: center;
+    text-align:left;
+}
+.t-right h1{
+      margin-top:-40px;
+     font-family: "Poppins", Sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.25;
+    margin-bottom: 16px;
+    width:60%;
+}
+.t-right p{
+    margin-bottom: 16px;
+    font-family: Nunito Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    width:65%;
+    color: #1c1c24;
+    margin-top:20px;
+}
+.t-right span{
+    font-family:monospace;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #1c1c24;
+     width:60%;
+     font-weight: 600;
+     margin-top:20px;
+}
+.t-right button{
+    background-color: white;
+    border: 1px solid gold;
+    width:270px;
+    height:40px;
+    padding:10px;
+    border-radius: 5px;
+    margin-top:40px;
+}
+.t-right button:hover{
+    background-color:gold;
+
+}
+.tra-left{
+      width:50%;
+    height:100%; 
+     display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:left;
+    margin-left:200px;
+}
+.tra-right{
+width:50%;
+    height:100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center; 
+}
+.tra-right img{
+    width:520px;
+    height:520px;
+    border-radius:10px;
+    
+}
+.tra-left h1{
+      margin-top:-40px;
+     font-family: "Poppins", Sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.25;
+    margin-bottom: 16px;
+    width:70%;
+     margin-left:-50px;
+}
+.tra-left p{
+    margin-bottom: 16px;
+    font-family: Nunito Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    width:75%;
+    color: #1c1c24;
+    margin-top:20px;
+     margin-left:-20px;
+}
+.tra-left span{
+    font-family:monospace;
+    /* font-weight: 400; */
+    font-size: 16px;
+    line-height: 1.6;
+    color: #1c1c24;
+     width:70%;
+     font-weight: 600;
+     margin-top:20px;
+     margin-left:-20px;
+}
+.tra-left button{
+    background-color: white;
+    border: 1px solid gold;
+    width:270px;
+    height:40px;
+    padding:10px;
+    border-radius: 5px;
+    margin-top:40px;
+    margin-left:-210px;
+}
+.tra-left button:hover{
+    background-color:gold;
+
+}
+.faq{
+     background-color:#b7b5b2;
+     width:100%;
+     height:700px;
+       display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+.faq h1{
+    font-family: "Poppins", Sans-serif;
+    font-size: 55px;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    line-height: 1.143;
+    margin-bottom: 30px;
+}
+.faq span{
+    width:45%;
+    margin-bottom:30px;
+    font-family: Nunito Sans;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 1.6;
+    text-align: center;
+    color:white;
+}
+.question{
+    border-style: none;
+    width:40%;
+    height:60px;
+    border-radius: 10px;
+    font-family: "Poppins", Sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+     text-align: center;
+     padding:10px;
+     position: relative;
+    margin-bottom:10px;
+}
+.question i{
+   position: absolute;
+   right:5px;
+   top:15px;
+  
+}
+.question p{
+    text-align:left;
+    margin-left:10px;
+}
+.answer{
+    width:40%;
+    margin-top:10px;
+     margin-bottom:10px;
+    font-family: Nunito Sans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    background-color: #FFFFFFB5;
+    border-color: #E8E8E8;
+    padding: 25px 25px 25px 25px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-radius: 10px 10px 10px 10px;
+    display:none;
+}
+.question:focus+.answer{
+    display:block;
+}
+@media (min-width:500px) and (max-width:600px){
+    .festive{
+      width:100wh;
+    height:550px;
+    background-image: url(./images/ss.png);
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+     /* background-size: cover; */
+ 
+}  
+.festive h1{
+       font-family: "Poppins", Sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    color: #FFFFFF;
+   
+    margin-top:-240px;
+    text-align:center;
+
+} 
+.tradition1{
+    display:block;
+}
+.t-left{
+     margin-top:-330px;
+     
+}
+.t-left img{
+   
+    width:450px;
+    height:450px;
+    margin-left:250px;
+   
+}
+  .t-right{
+    /* padding:10px; */
+    margin-left:50px;
+    width:140%;
+    margin-top:-160px;
+  } 
+  .t-right h1{
+   
+    font-size: 28px;
+  
+}
+
+.tra-left{
+    margin-top:550px;
+     width:115%;
+     margin-left:10px;
+      margin-top:370px;
+
+}
+.tra-left h1{
+   font-size: 28px; 
+}
+
+.tra-right{
+    margin-top:-150px;
+}
+.tra-right img{
+   
+    width:450px;
+    height:450px;
+    margin-left:30px;
+   
+}
+#two{
+    margin-top:700px;
+}
+#three{
+    margin-top:450px;
+}
+#four{
+    margin-top:700px;
+}
+#five{
+    margin-top:500px;
+}
+.faq{
+    margin-top:500px;
+    /* width:90%; */
+}
+.faq h1{
+      font-size: 40px;
+}
+.faq span{
+    width:90%;
+    font-size:1rem;
+}
+.question{
+    border-style: none;
+    width:95%;
+    height:60px;
+    border-radius: 10px;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+     text-align: center;
+     padding:10px;
+     position: relative;
+    margin-bottom:10px;
+}
+
+.question p{
+    text-align:left;
+    margin-left:10px;
+}
+.answer{
+    width:95%;
+    margin-top:10px;
+     margin-bottom:10px;
+    font-family: Nunito Sans;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: center;
+    background-color: #FFFFFFB5;
+    border-color: #E8E8E8;
+    padding: 25px 25px 25px 25px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-radius: 10px 10px 10px 10px;
+    display:none;
+}
+}
+@media (min-width:601px) and  (max-width:768px){
+    .festive{
+        /* display:none;  */
+            width:100wh;
+     height:550px;
+    background-image: url(./images/ss.png);
+    background-size: 100% 95%;
+    background-repeat: no-repeat;
+    
+}
+.festive h1{
+       font-family: "Poppins", Sans-serif;
+    font-size: 65px;
+    font-weight: 800;
+    color: #FFFFFF;
+   
+    /* margin-top:-0px; */
+    text-align:center;
+
+}
+.tradition1{
+    display:block;
+}
+.t-left{
+     margin-top:-300px;
+      margin:auto;
+     
+}
+.t-left img{
+   
+    width:500px;
+    height:450px;
+    margin-left:50px;
+   
+   
+}
+  .t-right{
+    
+    margin-left:50px;
+    width:140%;
+    margin-top:-160px;
+  } 
+  .t-right h1{
+   
+    font-size: 28px;
+  
+}
+.tra-left{
+    margin-top:550px;
+     width:115%;
+     margin-left:-50px;
+      margin-top:370px;
+
+}
+.tra-left h1{
+   font-size: 28px; 
+}
+
+.tra-right{
+    margin-top:-150px;
+}
+.tra-right img{
+   
+    width:450px;
+    height:450px;
+    margin-left:30px;
+   
+}
+#two{
+    margin-top:700px;
+}
+#three{
+    margin-top:450px;
+}
+#four{
+    margin-top:700px;
+}
+#five{
+    margin-top:500px;
+}
+.faq{
+    margin-top:500px;
+    /* width:90%; */
+}
+.faq h1{
+      font-size: 40px;
+}
+.faq span{
+    width:90%;
+    font-size:1rem;
+}
+.question{
+    border-style: none;
+    width:95%;
+    height:60px;
+    border-radius: 10px;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+     text-align: center;
+     padding:10px;
+     position: relative;
+    margin-bottom:10px;
+}
+
+.question p{
+    text-align:left;
+    margin-left:10px;
+}
+.answer{
+    width:95%;
+    margin-top:10px;
+     margin-bottom:10px;
+    font-family: Nunito Sans;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: center;
+    background-color: #FFFFFFB5;
+    border-color: #E8E8E8;
+    padding: 25px 25px 25px 25px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-radius: 10px 10px 10px 10px;
+    display:none;
+}
+}
+@media (max-width:480px){
+
+.festive{
+    height:350px;
+    background-size:cover;
+}
+
+.festive h1{
+    font-size:26px;
+    text-align:center;
+}
+
+.tradition1{
+    flex-direction:column;
+    height:auto;
+    padding:30px 15px;
+    gap:25px;
+}
+
+.t-left, .t-right,
+.tra-left, .tra-right{
+    width:100%;
+    height:auto;
+    margin:0;
+    padding:0;
+    text-align:center;
+    align-items:center;
+}
+
+.t-left img,
+.tra-right img{
+    width:100%;
+    height:auto;
+    margin:0 auto;
+}
+
+.t-right h1,
+.tra-left h1{
+    width:100%;
+    font-size:20px;
+}
+
+.t-right p,
+.tra-left p,
+.t-right span,
+.tra-left span{
+    width:100%;
+    font-size:13px;
+}
+
+.t-right button,
+.tra-left button{
+    width:100%;
+    max-width:220px;
+    margin:20px auto 0;
+}
+
+.faq{
+    height:auto;
+    padding:40px 15px;
+}
+
+.faq h1{
+    font-size:28px;
+}
+
+.faq span{
+    width:100%;
+    font-size:14px;
+}
+
+.question,
+.answer{
+    width:100%;
+    font-size:14px;
+}
+}
+@media (min-width:481px) and (max-width:768px){
+
+.festive{
+    height:400px;
+    background-size:cover;
+}
+
+.festive h1{
+    font-size:32px;
+}
+
+.tradition1{
+    flex-direction:column;
+    height:auto;
+    padding:40px 20px;
+    gap:30px;
+}
+
+.t-left, .t-right,
+.tra-left, .tra-right{
+    width:100%;
+    text-align:center;
+    align-items:center;
+}
+
+.t-left img,
+.tra-right img{
+    width:90%;
+    height:auto;
+    margin:0 auto;
+}
+
+.t-right h1,
+.tra-left h1{
+    font-size:24px;
+    width:100%;
+}
+
+.t-right p,
+.tra-left p,
+.t-right span,
+.tra-left span{
+    width:100%;
+}
+
+.t-right button,
+.tra-left button{
+    margin:20px auto 0;
+}
+
+.faq{
+    height:auto;
+    padding:50px 20px;
+}
+
+.faq span{
+    width:90%;
+}
+
+.question,
+.answer{
+    width:95%;
+}
+}
+@media (min-width:769px) and (max-width:1024px){
+
+.tradition1{
+    padding:60px 40px;
+    gap:40px;
+}
+
+.t-left img,
+.tra-right img{
+    width:400px;
+    height:auto;
+    margin:0 auto;
+}
+
+.t-right h1,
+.tra-left h1{
+    font-size:28px;
+    width:100%;
+}
+
+.t-right p,
+.tra-left p{
+    width:100%;
+}
+
+.faq span{
+    width:80%;
+}
+
+.question,
+.answer{
+    width:80%;
+}
+}
+@media (max-width:600px){
+
+.festive{
+    height:400px;
+    background-size: cover;
+}
+
+.festive h1{
+    font-size:35px;
+    text-align:center;
+}
+
+.tradition1{
+    flex-direction:column;
+    height:auto;
+    padding:20px;
+}
+
+.t-left, .t-right,
+.tra-left, .tra-right{
+    width:100%;
+    height:auto;
+    margin:0;
+    padding:0;
+}
+
+.t-left img,
+.tra-right img{
+    width:100%;
+    height:auto;
+    margin:0;
+}
+
+.t-right h1,
+.tra-left h1{
+    font-size:24px;
+    width:100%;
+}
+
+.t-right p,
+.tra-left p,
+.t-right span,
+.tra-left span{
+    width:100%;
+    font-size:14px;
+}
+
+.t-right button,
+.tra-left button{
+    width:100%;
+    margin-left:0;
+}
+
+.faq{
+    height:auto;
+    padding:40px 20px;
+}
+
+.faq h1{
+    font-size:32px;
+}
+
+.faq span{
+    width:100%;
+    font-size:14px;
+}
+
+.question,
+.answer{
+    width:100%;
+    font-size:14px;
+}
+}
+@media (max-width:600px){
+
+.festive{
+    height:400px;
+    background-size: cover;
+}
+
+.festive h1{
+    font-size:35px;
+    text-align:center;
+}
+
+.tradition1{
+    flex-direction:column;
+    height:auto;
+    padding:20px;
+}
+
+.t-left, .t-right,
+.tra-left, .tra-right{
+    width:100%;
+    height:auto;
+    margin:0;
+    padding:0;
+}
+
+.t-left img,
+.tra-right img{
+    width:100%;
+    height:auto;
+    margin:0;
+}
+
+.t-right h1,
+.tra-left h1{
+    font-size:24px;
+    width:100%;
+}
+
+.t-right p,
+.tra-left p,
+.t-right span,
+.tra-left span{
+    width:100%;
+    font-size:14px;
+}
+
+.t-right button,
+.tra-left button{
+    width:100%;
+    margin-left:0;
+}
+
+.faq{
+    height:auto;
+    padding:40px 20px;
+}
+
+.faq h1{
+    font-size:32px;
+}
+
+.faq span{
+    width:100%;
+    font-size:14px;
+}
+
+.question,
+.answer{
+    width:100%;
+    font-size:14px;
+}
+}
+@media (max-width:600px){
+
+.festive{
+    height:400px;
+    background-size: cover;
+}
+
+.festive h1{
+    font-size:35px;
+    text-align:center;
+}
+
+.tradition1{
+    flex-direction:column;
+    height:auto;
+    padding:20px;
+}
+
+.t-left, .t-right,
+.tra-left, .tra-right{
+    width:100%;
+    height:auto;
+    margin:0;
+    padding:0;
+}
+
+.t-left img,
+.tra-right img{
+    width:100%;
+    height:auto;
+    margin:0;
+}
+
+.t-right h1,
+.tra-left h1{
+    font-size:24px;
+    width:100%;
+}
+
+.t-right p,
+.tra-left p,
+.t-right span,
+.tra-left span{
+    width:100%;
+    font-size:14px;
+}
+
+.t-right button,
+.tra-left button{
+    width:100%;
+    margin-left:0;
+}
+
+.faq{
+    height:auto;
+    padding:40px 20px;
+}
+
+.faq h1{
+    font-size:32px;
+}
+
+.faq span{
+    width:100%;
+    font-size:14px;
+}
+
+.question,
+.answer{
+    width:100%;
+    font-size:14px;
+}
+}
+@media (min-width:601px) and (max-width:992px){
+
+.festive{
+    height:450px;
+    background-size: cover;
+}
+
+.festive h1{
+    font-size:55px;
+}
+
+.tradition1{
+    flex-direction:column;
+    height:auto;
+    padding:40px;
+}
+
+.t-left, .t-right,
+.tra-left, .tra-right{
+    width:100%;
+    height:auto;
+}
+
+.t-left img,
+.tra-right img{
+    width:80%;
+    height:auto;
+    margin:auto;
+}
+
+.t-right h1,
+.tra-left h1{
+    font-size:28px;
+    width:100%;
+}
+
+.t-right p,
+.tra-left p,
+.t-right span,
+.tra-left span{
+    width:100%;
+}
+
+.t-right button,
+.tra-left button{
+    margin-left:0;
+}
+
+.faq{
+    height:auto;
+    padding:50px 40px;
+}
+
+.faq span{
+    width:80%;
+}
+
+.question,
+.answer{
+    width:90%;
+}
+}
+@media (min-width:993px) and (max-width:1200px){
+
+.t-left img,
+.tra-right img{
+    width:400px;
+    height:auto;
+    margin-left:0;
+}
+
+.t-right h1,
+.tra-left h1{
+    font-size:32px;
+}
+
+.t-right p,
+.tra-left p{
+    font-size:15px;
+}
+
+.faq span{
+    width:70%;
+}
+
+.question,
+.answer{
+    width:60%;
+}
+}
